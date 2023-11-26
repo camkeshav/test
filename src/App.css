@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.videoCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.videoPlayer {
+  height: auto;
+  width: 90%;
+}
+.heading {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wheelPopUp {
+  height: 80vh;
+  width: 50vw;
+  position: absolute;
+  left: 50vh;
+  top: 7vh;
+}
+.wheelImage {
+  position: relative;
+  margin: auto;
+  height: 500px;
+  width: auto;
+}
+.loginButton {
+  font-size: 30px;
+  font-weight: 500;
+  background-color: #f88737;
+  border-radius: 20px;
+  height: 80px;
+  width: 150px;
+  margin: auto;
+}
+.buttonDiv {
+  height: 20vh;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.titleBar {
+  height: 10vh;
+  width: 100%;
+  background-color: #f8ac76;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 5vh;
+  font-weight: 700;
+}
+.userName {
+  height: 15vh;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 4vh;
+  font-weight: 500;
+}
+.wheelCont {
+  width: 195vw;
+  display: flex;
+  justify-content: center;
+}
